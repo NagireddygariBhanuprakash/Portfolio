@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome kit link below -->
+    <script src="https://kit.fontawesome.com/982c0519aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="bhanulogo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi,I am <span>bhanupraksh</span></h1> <p>Python full stack web Developer,</p>from banglore.
+            </div>
+        </div>
+    </div>
+  <!-- #ABOUT SECTION    -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="6.png" alt="user">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>As a creative problem-solver with a passion for art and technology, I thrive in collaborative environments where innovation meets functionality. Outside of design, you can find me exploring local art scenes or hiking!.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+               <!-- Skills -->
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>DSA</span><br></li>
+                        <li>Python Data Structures and Algorithms<br></li>
+                        <li><span>Front-end</span><br></li>
+                        <li>Web Development<br></li>
+                        <li><span>Back-end</span><br></li>
+                        <li>Git</li>
+                        <li>Github</li>
+                        
+
+                    </ul>
+                </div>
+
+                <!--Experience -->
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <!-- <li><span>UI/UX</span><br></li>
+                        <li>Designing Web App Interfaces><br></li>
+                        <li><span>Web Development</span><br></li>
+                        <li>Web App Development<br></li>
+                        <li><span>App Development</span><br></li>
+                        <li>Building Android /ios apps</li> -->
+                        <li><span>Fresher</span></li>
+                        <li>Seeking a job for personal and professional growth.</li>
+                        
+
+                    </ul>
+                </div>
+
+                <!-- Education -->
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SSC</span><br></li>
+                        <li>Studied at Madhu Vidyanikethan School with 92% .<br></li>
+                        <li><span>Intermediate</span><br></li>
+                        <li>Studied MPC at Sri Sai Chaitanya junior college with 88% .<br></li>
+                        <li><span>Graduation</span><br></li>
+                        <li>Studied at Mother Theresa Degree College with 88% .</li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- Services section -->
+
+   
+   
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i><!-- font awesome icon elow -->
+                <h2>Python-DSA</h2>
+                <p> Highly proficient in Python programming with in-depth knowledge of Data Structures & Algorithms. Skilled in developing efficient, scalable, and well-optimized solutions to complex problems.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i><!-- font awesome icon elow -->
+                <h2>Front-end</h2>
+                <p>Highly skilled frontend developer with expertise in building responsive, interactive, and visually appealing web applications using HTML, CSS, and JavaScript. Proficient in creating cross-browser compatible and mobile-friendly interfaces.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i></i><!-- font awesome icon elow -->
+                <h2>Live Projects</h2>
+                <p>"Highly skilled frontend developer with expertise in HTML, CSS, and JavaScript. Built 7+ projects, including games, web applications, and interactive UI components. Proficient in responsive design, API integration, and game development. Utilized technologies like CSS Preprocessors, Canvas API, and JavaScript frameworks. Delivering visually appealing and user-friendly digital experiences."</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+        </div>
+    </div>
+   </div>
+
+   <!-- Portfolio -->
+
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="">
+                <div class="layer">
+                    <h3>2048 game</h3>
+                    <p>entertain game for reducing stress</p>
+                    <a href="https://2048gamebhanus.netlify.app/"target="_blank"></a><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>Show's the weather temperature of the places. .</p>
+                    <a href="https://weather-forecastapplicationbhanu.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="">
+                <div class="layer">
+                    <h3>online shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+
+   <!-- CONTACT DETAILS -->
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> 1905bhanuprakash@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone-flip"></i> 6300561043</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100015350359393"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/nagireddygaribhanuprakash?igsh=NG52OGd3dGkxOG85"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nagireddygari-bhanupraksh-59439a297/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/NagireddygariBhanuprakash"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <!-- download cv -->
+
+                 <a href="resume.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email"name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="3" placeholder="Your Message" id=""></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                    
+                </form>
+                <span id="msg"></span>
+            </div>
+           
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>Copyright @ Bhanu. <i class="fa-solid fa-heart"></i> Made with by</p>
+    </div>
+   </div>
+
+<script>
+    
+        var  tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        // function to close details and underline 
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            // to change the underlined to current active only
+            event.currentTarget.classList.add("active-link");
+
+            // to display the details of the active tab
+            document.getElementById(tabname).classList.add("active-tab");
+
+
+
+        }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    // to open the hamberger
+    function openmenu(){
+        sidemenu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby322sQNdzHRgJa2s8hpnj2Te40aUJxGP_Xl0MCStTLF56ow6O3Cx3oZpBNzipBN9Vv/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    const msg=document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML="Message sent successfully"})
+        setTimeout(function(){
+            msg.innerHTML=""
+        })
+        form.reset()
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+ 
+  </body>
+<script src="main.js"></script>
+</html>

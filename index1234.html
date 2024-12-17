@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.image-container:hover .overlay {
+  display: block;
+}
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.png" alt="Mobile Phone Image" class="image">
+        <div class="overlay">
+          <div class="details">
+            <h2>Mobile Phone Details</h2>
+            <p>Brand: Samsung</p>
+            <p>Model: Galaxy S22</p>
+            <p>Price: $799</p>
+          </div>
+        </div>
+      </div>
+</body>
+<script>
+    
+</script>
+</html>
